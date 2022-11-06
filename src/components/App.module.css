@@ -1,0 +1,27 @@
+.list {
+    padding: 0;
+    list-style: none;
+}
+
+.section {
+    margin: 50px;
+}
+
+.btnList {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 4px;
+    background-color: burlywood;
+}
+
+.btn:active {
+    background-color: #d6a265;
+}
