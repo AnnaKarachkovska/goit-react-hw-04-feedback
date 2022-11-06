@@ -4,7 +4,7 @@ import Notification from "./Notification";
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
     if (good === 0 && neutral === 0 && bad === 0) {
-        return <Notification message="There is no feedback" />;
+        return <Notification message="There is no feedback." />;
     } else {
         return <ul className={styles.list}>
             <li><p>Good: {good}</p></li>
